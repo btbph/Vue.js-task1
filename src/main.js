@@ -1,6 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './App'
+import ShowName from './components/ShowName'
 
+Vue.component('ShowName', ShowName)
 Vue.config.productionTip = false
 
 new Vue({
